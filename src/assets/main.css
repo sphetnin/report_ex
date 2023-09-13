@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-family: "Sarabun";
+  /* font-size: 14px; */
+}
+
+.demo-logo-vertical {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #716e6e42;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
