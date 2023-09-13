@@ -11,7 +11,7 @@ export const msalConfig = {
     clientId: "54c03488-da6e-444a-9b40-b117094ffbc3",
     authority:
       "https://login.microsoftonline.com/1d6dfc50-6475-4196-a609-e1026cb8a77e",
-    redirectUri: "https://sunny-sunburst-2f9922.netlify.app/",
+    redirectUri: "https://bst-report-system.netlify.app/",
     // redirectUri: "http://localhost:5010/",
   },
   cache: {
