@@ -8,7 +8,7 @@ function SelectProject({ onSelectValue }) {
   useEffect(() => {
     // ใช้ Axios ในส่วนนี้เพื่อดึงข้อมูลจาก API
     axios
-      .get("http://118.173.233.20:14443/sap_api/sap_project")
+      .get("//118.173.233.20:14443/sap_api/sap_project")
       .then((response) => {
         const data = response.data.data;
         const formatOption = data.map((res) => ({

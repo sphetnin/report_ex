@@ -43,10 +43,10 @@ function index() {
 
     try {
       const resSo = await axios.get(
-        `//192.168.0.161:5555/so_project/${encodedId}`
+        `//118.173.233.20:14443/sap_api/so_project/${encodedId}`
       );
       const resPo = await axios.get(
-        `//192.168.0.161:5555/po_project/${encodedId}`
+        `//118.173.233.20:14443/sap_api/po_project/${encodedId}`
       );
 
       const totalSo = resSo.data.data.reduce(
